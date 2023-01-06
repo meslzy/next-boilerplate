@@ -1,0 +1,16 @@
+# ide
+.idea/
+
+# node
+node_modules/
+package-lock.json
+
+# turbo
+.turbo/
+
+# output
+dist/
+
+# next.js
+.next/
+.vscode/

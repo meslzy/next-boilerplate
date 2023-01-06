@@ -1,0 +1,21 @@
+{
+  "name": "next-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
+  "dependencies": {
+    "turbo": "^1.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "workspaces": [
+    "apps/*",
+    "utils/*"
+  ],
+  "type": "module",
+  "private": true
+}
