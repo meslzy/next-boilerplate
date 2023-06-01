@@ -1,0 +1,53 @@
+{
+  "name": "@app/client",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@mantine/core": "^6.0.13",
+    "@mantine/hooks": "^6.0.13",
+    "@mantine/next": "^6.0.13",
+    "@mantine/notifications": "^6.0.13",
+    "@mantine/nprogress": "^6.0.13",
+    "accept-language": "^3.0.18",
+    "axios": "^1.4.0",
+    "clsx": "1.2.1",
+    "framer-motion": "^10.12.16",
+    "i18next": "^22.5.0",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "i18next-resources-to-backend": "^1.1.4",
+    "next": "13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.3.1",
+    "react-icons": "^4.9.0",
+    "swr": "^2.1.5",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@meslzy/eslint-config": "0.4.7",
+    "@meslzy/tsconfig": "0.2.1",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/nextjs": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/testing-library": "^0.1.0",
+    "@types/node": "~20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "eslint": "^8.41.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "storybook": "^7.0.18",
+    "typescript": "^5.0.4"
+  },
+  "private": true
+}
